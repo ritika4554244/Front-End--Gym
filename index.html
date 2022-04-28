@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huge Gym</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            color: rgb(240, 233, 233);
+            margin: 0px;
+            padding: 0px;
+            background: url('img/gd.jpg');
+         background-repeat: no-repeat;
+         background-size: cover;
+     
+        }
+        .left{
+            display: inline-block;
+  
+             position: absolute;
+            left: 34px;
+            top: 20px;
+    
+        }
+        .middle{
+            display: block;
+            width: 700px;
+            margin: 20px auto;
+        
+            
+        
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+  
+
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li {
+       
+            display: inline-block;
+        }
+        .navbar li a{
+            color: rgb(255, 255, 255) ;
+            padding: 25px;
+            text-decoration:none;
+            font-size: 20px;
+        }
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: orange;
+
+        }
+        .left img{
+            width: 100px;
+    
+        }
+        .left div{
+            text-align: center;
+            line-height: 20px;
+        }
+        .btn{
+            margin: 4px;
+            padding: 5px ;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            font-size: 10px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            color:rgb(209, 173, 105);
+            text-decoration: underline;
+        }
+        .container{
+            border: 2px solid white;
+            margin: 155px 15px;
+            padding: 15px;
+            width: 40%;
+            cursor: pointer;
+            border-radius: 30px;
+        }
+        .formgroup input{
+            
+             border-radius: 18px;
+             padding: 5px;
+             width: 500px;
+             font-size: 20px;
+             text-align: center;
+
+        }
+        .container h1{
+            text-align: center;
+        }
+
+        .container button{
+            width: 500px;
+            display: block;
+            margin: 8px;
+            
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- left box for logo -->
+            <img src="img/images.jpeg" alt="">
+            <div>Huge Gym </div>
+
+        </div>
+        <div class="middle">
+            <!-- mid box for navigation -->
+            <ul class="navbar">
+
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Our Products</a></li>
+        </ul>
+           
+
+        </div>
+
+        <div class="right">
+            <!-- right box for search bar -->
+       <button class="btn"> Call Us Now</button>
+       <button class="btn"> Email Us</button>
+
+        </div>
+    </header>
+    <div class="container">
+       <h1>Fill Form To Contact Us</h1>
+       <form action="noaction.php">
+       <div class="formgroup">
+           <input type="text" name="" placeholder="Enter Your Name">
+       </div>
+       <div class="formgroup">
+        <input type="text" name="" placeholder="Enter Your Age">
+    </div>
+    <div class="formgroup">
+        <input type="text" name="" placeholder="Enter Your Email Id">
+    </div>
+    <div class="formgroup">
+        <input type="text" name="" placeholder="Enter Your Contact Number">
+    </div>
+    <button class="btn">Submit Now </button>
+    
+ 
+    
+
+    
+</form>
+    </div>
+
+  
+    
+</body>
+</html>
